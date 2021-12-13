@@ -3,28 +3,27 @@ Chiedi all’utente la sua email,
 controlla che sia nella lista di chi può accedere,
 stampa un messaggio appropriato sull’esito del controllo. */
 
-function myFunction() {
+/* function myFunction() {
     let myEmail = document.getElementById("myEmail").value;
     document.getElementById("demo").innerHTML = myEmail;
     return myEmail;
 }
+let myEmail2 = myFunction(); */
 
-let myEmail2 = myFunction();
+const myEmail = prompt("Inserisci la tua email:");
 
-console.log(myEmail2);
-
-const validEmail = ["a","b","c"];
+const validEmail = [" gee_male@gmail.com","pope_francis@franciscus.com","elon_musk@X_Æ_A-12.com"];
 
 let trovata = false;
 
 for (let i = 0; i < validEmail.length; i++){
-    if(myEmail2 == validEmail[i]){
+    if(myEmail == validEmail[i]){
         trovata = true;
     }
 }    
 
 if(trovata){
-    document.getElementById("demo2").innerHTML = "Email corretta.";
+    console.log("Email corretta.");
 }else{
-    document.getElementById("demo2").innerHTML = "Email errata.";
+    console.log("Email errata.");
 }
