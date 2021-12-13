@@ -12,7 +12,7 @@ let myEmail2 = myFunction(); */
 
 const myEmail = prompt("Inserisci la tua email:");
 
-const validEmail = [" gee_male@gmail.com","pope_francis@franciscus.com","elon_musk@X_Æ_A-12.com"];
+const validEmail = ["gee_male@gmail.com","pope_francis@franciscus.com","elon_musk@X_Æ_A-12.com"];
 
 let trovata = false;
 
