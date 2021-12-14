@@ -17,7 +17,7 @@ console.log(dado_cpu)
 if(dado_utente > dado_cpu){
     document.getElementById("risultato").innerHTML = ("Hai vinto");
     console.log("Hai vinto");
-}else if(dado_utente < dado_cpu){
+}else if(dado_cpu > dado_utente){
     document.getElementById("risultato").innerHTML = ("Hai perso");
     console.log("Hai perso");
 }else{
