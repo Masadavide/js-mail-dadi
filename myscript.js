@@ -12,6 +12,7 @@ function myFunction() {
     for (let i = 0; i < validEmail.length; i++){
         if(myEmail == validEmail[i]){
             trovata = true;
+            i = validEmail.length
         }
     }    
     
